@@ -1,0 +1,248 @@
+/* Base Mobile View (up to 768px) */
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    #navigation-bar {
+        display: none;
+    }
+
+    #mobile-header {
+        display: flex;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    .home {
+        flex-direction: column;
+        padding: 10%;
+    }
+
+    .home-content {
+        text-align: center;
+        position: relative;
+        top: 170px;
+    }
+
+    .avatar {
+        background: transparent;
+        border: none;
+        position: relative;
+        bottom: 69px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .avatar img {
+        overflow: hidden;
+    }
+
+    .home-content h1,
+    .home-content h2,
+    .home-content p,
+    .btn-box {
+        position: relative;
+        left: 0;
+    }
+
+    .home-content h1 {
+        font-size: 2.625rem;
+    }
+
+    .home-content h2 {
+        font-size: 1.875rem;
+    }
+
+    .home-content p {
+        font-size: 1rem;
+    }
+
+    .btn-box {
+        text-align: center;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .home-footer {
+        position: relative;
+        top: 170px;
+        text-align: center;
+    }
+
+    /* ABOUT ME */
+    .title {
+        position: relative;
+        top: 60px;
+        font-size: 1.9rem;
+    }
+
+    .about-text {
+        font-size: 0.9rem;
+        line-height: 1.4;
+        margin-top: 1rem;
+        position: relative;
+        top: 50px;
+    }
+
+    .skills {
+        font-size: 1.9rem;
+        position: relative;
+        top: 30px;
+    }
+
+    .front-end,
+    .flex-list {
+        position: relative;
+        top: 30px;
+    }
+
+    .about-footer {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    /* PROJECTS */
+    .projects-container {
+        position: relative;
+        top: 60px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-footer {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    /* BLOG */
+    .blogs a {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    .footer {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    /* CONTACT */
+    .contact-title {
+        font-size: 2.5rem;
+        position: relative;
+        top: 140px;
+        left: 0;
+        text-align: center;
+    }
+
+    .contactform-box {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .contactform-subtext {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 130px;
+        left: 0;
+    }
+
+    form {
+        position: relative;
+        top: 80px;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .contactform-socials {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 100px;
+        left: 0;
+    }
+
+    .contact-footer {
+        font-size: 0.8rem;
+        position: relative;
+        top: 120px;
+        text-align: center;
+    }
+}
+
+/* Tablet and Small Laptop View (up to 799px) */
+@media screen and (max-width: 799px) {
+    .menu a {
+        font-size: 20px;
+    }
+
+    .home-content h1 {
+        font-size: 1.75rem;
+    }
+
+    .home-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .home-content p {
+        font-size: 0.9rem;
+    }
+
+    .btn-box a {
+        font-size: 0.9rem;
+    }
+
+    .social-icons a {
+        height: 30px;
+        width: 30px;
+    }
+
+    .home-footer {
+        font-size: 0.8rem;
+    }
+
+    /* ABOUT */
+    .about-text {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
+    }
+
+    /* BLOG */
+    .blogs a {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    /* CONTACT */
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #0a192f;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    .menu.show-menu {
+        display: flex;
+    }
+}
