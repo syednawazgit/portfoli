@@ -496,7 +496,11 @@ h4 {
     top: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+
+    /* Add this line below */
+    border: 2px solid #ffffff;
 }
+
 
 .project-card:hover {
     transform: translateY(-12px);
